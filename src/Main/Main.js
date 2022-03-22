@@ -64,7 +64,7 @@ const Main = () => {
 			</div>
 
 			{movies.map(
-				movie => (console.log(movie), (<Movies movie={movie} />))
+				movie => ( (<Movies movie={movie} />))
 			)}
 		</div>
 	);
