@@ -1,0 +1,17 @@
+.logoContainer {
+	font-family: Arial;
+	text-align: center;
+	border: 1px solid white;
+	color: white;
+	display: "flex";
+	align-items: "center";
+	padding-top: 20;
+}
+.scroller {
+	overflow-x: scroll;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+}
+.scroller::-webkit-scrollbar {
+	display: none;
+}
