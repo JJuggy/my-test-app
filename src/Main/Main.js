@@ -12,7 +12,7 @@ const Main = () => {
 
 	useEffect(() => {
 		const fetchData = async () => {
-			const url = `http://www.omdbapi.com/?apikey=efdeb3d7&s=${keyword}`;
+			const url = `https://www.omdbapi.com/?apikey=efdeb3d7&s=${keyword}`;
 			await axios
 				.get(url)
 				.then(response => setMovies([response.data.Search]));
